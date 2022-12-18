@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker run --rm -v pkg:/go/pkg -v "$PWD":/app -w /app app go test ./...
+exit $?

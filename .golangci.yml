@@ -1,0 +1,6 @@
+linters:
+  enable:
+    - revive
+    - govet
+    - gosec
+    - goimports
